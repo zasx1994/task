@@ -1,0 +1,211 @@
+2020-07-20 16:45:11 [INF] initlog.go:21 | fqefeq
+2020-07-20 16:45:11 [INF] initlog.go:23 | 日志已启动
+2020-07-20 17:02:57 [INF] initlog.go:22 | 日志已启动
+2020-07-20 17:02:57 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-20 17:02:57 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-22 15:01:46 [INF] initlog.go:22 | 日志已启动
+2020-07-22 15:01:46 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-22 15:01:46 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-22 15:01:46 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-22 15:45:46 [INF] initlog.go:22 | 日志已启动
+2020-07-22 15:45:46 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-22 15:45:46 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-22 15:45:46 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:28:13 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:28:13 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:28:13 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:28:13 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:32:09 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:32:09 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:32:09 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:32:09 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:32:09 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:34:11 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:34:11 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:34:11 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:34:11 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:34:11 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:34:11 [INF] initrpc.go:27 | RPC服务已注册
+2020-07-23 11:36:17 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:36:17 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:36:17 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:36:17 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:36:17 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:42:57 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:42:57 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:42:57 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:42:57 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:42:57 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:43:09 [INF] userserver.go:19 | hello from client
+2020-07-23 11:46:58 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:46:58 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:46:58 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:46:58 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:46:58 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:52:26 [INF] initlog.go:22 | 日志已启动
+2020-07-23 11:52:26 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 11:52:26 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 11:52:26 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 11:52:26 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 11:52:34 [INF] userserver.go:19 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 11:52:45 [INF] userserver.go:19 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:25:54 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:25:54 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 16:25:54 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 16:25:54 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 16:25:54 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:26:28 [INF] userserver.go:21 | 
+2020-07-23 16:27:02 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:27:02 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 16:27:02 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 16:27:02 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 16:27:02 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:28:22 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:28:22 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 16:28:22 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 16:28:22 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 16:28:22 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:28:42 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:39:06 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:39:06 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 16:39:06 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 16:39:06 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 16:39:06 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:39:16 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:40:06 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:42:34 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:42:34 [INF] initmysql.go:22 | MySQL IP:127.0.0.1
+2020-07-23 16:42:34 [INF] initmysql.go:24 | MySQL port:3306
+2020-07-23 16:42:34 [INF] initmysql.go:39 | 数据库已经链接
+2020-07-23 16:42:34 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:42:37 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:47:13 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:47:13 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 16:47:13 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 16:47:13 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 16:47:13 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:47:18 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:47:54 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:47:54 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 16:47:54 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 16:47:54 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 16:47:54 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:47:57 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:50:57 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:50:57 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 16:50:57 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 16:50:57 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 16:50:57 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:51:01 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:51:23 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:51:23 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 16:51:23 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 16:51:23 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 16:51:23 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:51:32 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:56:37 [INF] initlog.go:22 | 日志已启动
+2020-07-23 16:56:37 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 16:56:37 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 16:56:37 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 16:56:37 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 16:56:48 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 16:57:33 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:16:00 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:16:00 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:16:00 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:16:00 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:16:00 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:16:10 [INF] userserver.go:55 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:16:10 [ERR] userserver.go:60 | DB error:Params type error
+2020-07-23 17:18:25 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:18:25 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:18:25 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:18:25 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:18:25 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:18:28 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:18:45 [ERR] userserver.go:59 | DB error:Params type error
+2020-07-23 17:19:48 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:19:48 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:19:48 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:19:48 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:19:48 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:19:53 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:20:34 [ERR] userserver.go:59 | DB error:Params type error
+2020-07-23 17:22:06 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:22:06 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:22:06 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:22:06 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:22:06 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:22:10 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:22:14 [ERR] userserver.go:59 | DB error:Params type error
+2020-07-23 17:22:59 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:23:15 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:23:31 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:23:31 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:23:31 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:23:31 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:23:31 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:23:36 [INF] userserver.go:21 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:23:55 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:24:04 [ERR] userserver.go:59 | DB error:Params type error
+2020-07-23 17:24:54 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:24:54 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:24:54 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:24:54 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:24:54 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:25:00 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:25:23 [ERR] userserver.go:59 | DB error:Error 1054: Unknown column '？' in 'where clause'
+2020-07-23 17:27:47 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:27:47 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:27:47 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:27:47 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:27:47 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:27:50 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:28:25 [ERR] userserver.go:59 | DB error:Params type error
+2020-07-23 17:29:38 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:29:38 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:29:38 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:29:38 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:29:38 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:29:44 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:29:44 [ERR] userserver.go:59 | DB error:Error 1054: Unknown column '？' in 'where clause'
+2020-07-23 17:31:05 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:31:05 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:31:05 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:31:05 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:31:05 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:31:09 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:31:09 [ERR] userserver.go:59 | DB error:Error 1054: Unknown column '？' in 'where clause'
+2020-07-23 17:32:04 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:32:04 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:32:04 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:32:04 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:32:04 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:32:08 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:35:39 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:35:39 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:35:39 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:35:39 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:35:39 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:35:42 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:35:42 [ERR] userserver.go:59 | DB error:ID condition is error, expect 0 primarykeys, there are 1
+2020-07-23 17:36:39 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:36:39 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:36:39 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:36:39 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:36:39 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:36:42 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"123456","profilepic":"tom"}
+2020-07-23 17:37:00 [INF] userserver.go:54 | {"id":"1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:39:41 [INF] userserver.go:40 | {"id":"a1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:39:53 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:39:53 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:39:53 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:39:53 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:39:53 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:40:01 [INF] userserver.go:40 | {"id":"a1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-23 17:41:21 [INF] initlog.go:22 | 日志已启动
+2020-07-23 17:41:21 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-23 17:41:21 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-23 17:41:21 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-23 17:41:21 [INF] initrpc.go:13 | RPC服务注册
+2020-07-23 17:41:24 [INF] userserver.go:40 | {"id":"a1","user":"tom","password":"56789","profilepic":"tom"}

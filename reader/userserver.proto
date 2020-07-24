@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package userservice;
+
+message Message{
+    int32 code = 1;
+    string body = 2;
+}
+
+service UserService{
+    rpc login(Message) returns (Message){}
+    rpc register(Message) returns (Message){}
+    rpc edit(Message) returns (Message){}
+    rpc info(Message) returns (Message){}
+}
