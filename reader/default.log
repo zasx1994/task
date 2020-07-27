@@ -209,3 +209,418 @@
 2020-07-23 17:41:21 [INF] initmysql.go:40 | 数据库已经链接
 2020-07-23 17:41:21 [INF] initrpc.go:13 | RPC服务注册
 2020-07-23 17:41:24 [INF] userserver.go:40 | {"id":"a1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-27 12:20:58 [INF] initlog.go:22 | 日志已启动
+2020-07-27 12:20:58 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-27 12:20:58 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-27 12:20:58 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-27 12:20:58 [INF] initrpc.go:13 | RPC服务注册
+2020-07-27 15:27:23 [INF] initlog.go:22 | 日志已启动
+2020-07-27 15:27:23 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-27 15:27:23 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-27 15:27:23 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-27 15:27:23 [INF] initrpc.go:13 | RPC服务注册
+2020-07-27 15:34:37 [INF] userserver.go:40 | {"id":"a1","user":"tom","password":"56789","profilepic":"tom"}
+2020-07-27 15:34:37 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry 'a1' for key 'PRIMARY'
+2020-07-27 15:35:39 [INF] userserver.go:21 | {"id":"a48972","Password":"123456","NIckName":"tom","ProfilePic":"default"}
+2020-07-27 15:40:41 [INF] userserver.go:40 | {"id":"a48972","Password":"123456","NIckName":"tom","ProfilePic":"default"}
+2020-07-27 15:45:21 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:38 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:38 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:40 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:40 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
