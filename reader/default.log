@@ -624,3 +624,24 @@
 2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
 2020-07-27 15:45:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
 2020-07-27 15:45:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 11:13:41 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 11:13:41 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:32:09 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 15:32:09 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:32:39 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 15:32:39 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:32:50 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 15:32:50 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:33:09 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 15:33:09 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:33:24 [INF] initlog.go:22 | 日志已启动
+2020-07-28 15:33:24 [INF] initmysql.go:23 | MySQL IP:127.0.0.1
+2020-07-28 15:33:24 [INF] initmysql.go:25 | MySQL port:3306
+2020-07-28 15:33:24 [INF] initmysql.go:40 | 数据库已经链接
+2020-07-28 15:33:24 [INF] initrpc.go:13 | RPC服务注册
+2020-07-28 15:33:28 [INF] userserver.go:40 | {"id":"","Password":"","NIckName":"","ProfilePic":""}
+2020-07-28 15:33:28 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry '' for key 'PRIMARY'
+2020-07-28 15:34:14 [INF] userserver.go:40 | {"id":"a48972","Password":"123456","NIckName":"tom","ProfilePic":"default"}
+2020-07-28 15:34:14 [ERR] userserver.go:45 | DB error:Error 1062: Duplicate entry 'a48972' for key 'PRIMARY'
+2020-07-28 15:34:24 [INF] userserver.go:40 | {"id":"a48d2","Password":"123456","NIckName":"tom","ProfilePic":"default"}
+2020-07-28 15:34:33 [INF] userserver.go:40 | {"id":"a4da","Password":"123456","NIckName":"tom","ProfilePic":"default"}
