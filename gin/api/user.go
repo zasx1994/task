@@ -48,7 +48,7 @@ func Login(c *gin.Context){
 	code := res.Code
 	fmt.Printf("response from server : %s",code)
 	if code == 200 {
-		response.Ok(c)
+		response.OkWithMessage(c,"登陆成功")
 		return
 	}else{
 		response.Fail(c)
@@ -94,7 +94,7 @@ func GetInfo(c *gin.Context){
 	code := res.Code
 	fmt.Printf("response from server : %s",code)
 	if code == 200 {
-		response.Ok(c)
+		response.OkWithData(c,res)
 		return
 	}else{
 		response.Fail(c)

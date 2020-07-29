@@ -32,6 +32,10 @@ func OkWithMessage(c *gin.Context,msg string){
 	Result(SUCCES,map[string]interface{}{},msg,c)
 }
 
+func OkWithData(c *gin.Context,data interface{}){
+	Result(SUCCES,data,"操作成功",c)
+}
+
 func Fail(c *gin.Context){
 	Result(FAILED,map[string]interface{}{},"操作失败",c)
 }

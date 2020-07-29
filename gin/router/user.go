@@ -11,6 +11,6 @@ func InitUserRouter(Router *gin.Engine){
 	UserRouter.POST("register",api.Register)
 	UserRouter.POST("edit",api.Edit)
 	UserRouter.POST("login",api.Login)
-	UserRouter.GET("info",api.GetInfo)
+	UserRouter.POST("info",api.GetInfo)
 
 }
