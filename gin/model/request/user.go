@@ -1,27 +1,27 @@
 package request
 
 type LoginStruct struct{
-	Id  string `json:"id"`
-	Password string `json:"Password"`
+	Id  string
+	Password string
 }
 
 type RegisterStruct struct{
-	Id  string `json:"id"`
-	Password string `json:"Password"`
-	NickName string `json:"NIckName"`
-	ProfilePic string `json:"ProfilePic"`
+	Id  string
+	Password string
+	NickName string
+	ProfilePic string
 }
 
 type EditStruct struct{
-
-	Password string `json:"Password"`
-	NickName string `json:"NIckName"`
-	ProfilePic string `json:"ProfilePic"`
+	Id string
+	Password string
+	NickName string
+	ProfilePic string
 
 }
 
 type InfoStruct struct{
-	Id  string `json:"id"`
-	NickName string `json:"NIckName"`
-	ProfilePic string `json:"ProfilePic"`
+	Id  string
+	NickName string
+	ProfilePic string
 }

@@ -2,7 +2,6 @@ package core
 
 import (
 	"../initialize"
-	"../middleware"
 	"fmt"
 	"gopkg.in/ini.v1"
 	"net/http"
@@ -23,7 +22,6 @@ func Server(){
 	//gin.DefaultWriter = io.MultiWriter(f)
 	router :=initialize.Router()
 
-	router.Use(middleware.Cors())
 
 	s := &http.Server{
 		Addr:           fmt.Sprintf(":%s", cfg.Section("server").Key("HTTP_PORT").String()),

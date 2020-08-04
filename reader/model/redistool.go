@@ -26,17 +26,20 @@ func (c* Redistool)Flush()  {
 
 	pip:= c.REDIS_CIL.Pipeline()
 	for _,user := range users{
-		pip.HMSet(context.Background(),user.Id,"Id",user.Id,"Password",
-			user.PassWord,"NickName ",user.NickName,"ProfilePic",user.ProfilePic)
+		pip.HMSet(context.Background(),user.Id,"Id",user.Id,"NickName",user.NickName,"ProfilePic",user.ProfilePic)
 	}
 	pip.Exec(context.Background())
 	pip.Close()
 }
 
 func (c* Redistool)Get(id string)(map[string]string){
-	res,_:=c.REDIS_CIL.HGetAll(context.Background(),id).Result()
-	if res != nil {
+	res,err:=c.REDIS_CIL.HGetAll(context.Background(),id).Result()
+	if err == nil {
 		return res
 	}
 	return nil
+}
+
+func (c* Redistool)Delete(id string){
+	c.REDIS_CIL.Del(context.Background(),id).Result()
 }

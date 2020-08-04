@@ -1,4 +1,5 @@
-package util
+package main
+
 
 import (
 	"bytes"
@@ -7,6 +8,7 @@ import (
 	"encoding/base64"
 	"fmt"
 )
+
 func PKCS5Padding(ciphertext []byte, blockSize int) []byte {
 	padding := blockSize - len(ciphertext)%blockSize
 	padtext := bytes.Repeat([]byte{byte(padding)}, padding)
@@ -71,4 +73,10 @@ func Decrypt(cryptkey string,ciphertext string)(string){
 	}
 	fmt.Printf("解密后:%s\n", tpass)
 	return string(tpass)
+}
+
+func main()  {
+	pass64 := Encrypt("321423u9y8d2fwfl","a1")
+	c := Decrypt("321423u9y8d2fwfl",pass64)
+	fmt.Println(c)
 }

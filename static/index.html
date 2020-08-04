@@ -13,8 +13,6 @@
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script type="text/javascript">
-      window.onload(
-        )
       function login() {
         var url = "http://127.0.0.1:8080/user/login"
         var id = $("#account").val()
@@ -27,13 +25,22 @@
           contentType: "application/json; charset=utf-8",
           data: js,
           success: function (resp) {
-              alert(resp)
+              if (resp.code == 400) {
+                alert("登陆失败")
+              }else{
+                token = resp.Data;
+                document.cookie = "token ="+token;
+                document.cookie = "id ="+id;
+                // 类似 HTTP 重定向到菜鸟教程
+                window.location.replace("http://127.0.0.1:8080/home.html");
+              }
               },
               error: function (err) {
               alert(err)
               }
               })
       }
+
 
     </script>
 

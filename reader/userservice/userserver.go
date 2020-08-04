@@ -51,6 +51,7 @@ func(s *Server)Edit(ctx context.Context,message *Message)(*Message,error){
 	json.Unmarshal([]byte(body),&input)
 	global.GVA_LOG.Info(body)
 	_,err:=global.GVA_DB.Table("user").Where("id = ?",input.Id).Cols("password","nickname","profilepic").Update(input)
+	global.GVA_REDIS.Delete(input.Id)
 	if err == nil {
 			return &Message{Code: 200},nil
 	}else{
@@ -66,12 +67,13 @@ func(s *Server)Info(ctx context.Context,message *Message)(*Message,error){
 	json.Unmarshal([]byte(body),&input)
 	global.GVA_LOG.Info(body)
 	res := global.GVA_REDIS.Get(input.Id)
-	if res != nil {
+	if len(res) != 0 {
 		jsonStr,_ := json.Marshal(res)
-		global.GVA_LOG.Info(jsonStr)
+		global.GVA_LOG.Info(string(jsonStr))
 		return &Message{Code: 200,Body: string(jsonStr)},nil
 	}else {
-		_,err:=global.GVA_DB.Table("user").Where("id = ?",input.Id).Cols("id","nickname","profilepic").Get(user)
+		global.GVA_LOG.Info("redis未命中")
+		_,err :=global.GVA_DB.Table("user").Where("id = ?",input.Id).Cols("id","nickname","profilepic").Get(user)
 		if err != nil {
 			global.GVA_LOG.Error("DB error:",err)
 			return &Message{Code: 500,},nil
